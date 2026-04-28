@@ -1,0 +1,82 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      
+}
+
+.cv {
+    background-color: white;
+    width: 80%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    align-items: flex-start;
+    min-height: 100vh;
+    
+    border-left: 0.4rem double black;
+    border-right: 0.4rem double black;
+    
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 4rem;
+}
+
+.datos h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+.datos p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.foto-gris {
+    width: 30%;
+    height: 15rem;
+    background-color: #bcbcbc;
+    border: 0.15rem solid #555;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.seccion {
+    margin-top: 3rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    margin-left: 2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
